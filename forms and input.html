@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="vi">
+	<head>
+		<title>
+			HTML cơ bản
+		</title>
+		<meta charset="utf-8"/><!--bảng mã tiếng việt thông báo cho trình duyệt-->
+		<meta name="description" content="HTML cơ bản, các thẻ sử dụng nhiều nhất" /><!--giải thích thêm về trang web-->
+		<meta name="author" content="Tri Minh" /><!--tác giả trang web-->
+		<meta name="keyword" content="HTML, tag, html co ban, html voi the co ban" /><!--cung cấp thông tin cho các máy tiềm kiếm-->
+	</head>
+	<body>
+		<!--form (biểu mẩu) và nhập liệu :-->
+			<!--<form> một biểu mẩu cho người dùng nhập liệu, truyền dữ liệu lên máy chủ-->
+			<!--<input> một trường nhập liệu-->
+			<!--<label> một nhãn cho một điều khiển-->
+			<form action="#">
+				<ul>
+					<li>Họ tên: <input type="text" size="20" /></li>
+					<li>Email: <input type="text" size="20" /></li>
+				</ul>
+				<p><input type="submit" value="Gửi" /></p>
+			</form>
+			<!--<textarea> một vùng văn bản-->
+			<textarea rows="5" cols="20">Bạn đang xem tag html textarea, là text có thể nhập được văn bản,...</textarea>
+			<!--<button> một nút-->
+			<p><button type="button">Hãy click vào tôi !</button></p>
+			<!--<select> danh sách các mục con được xổ xuống-->
+			<!--<option> một tùy chọn trong danh sách các mục chọn-->
+			<select>
+				<option>Danh sách 01</option>
+				<option>Danh sách 02</option>
+				<option>Danh sách 03</option>
+				<option>Danh sách 03</option>
+			</select>
+			<!--<optgroup> một nhóm các tùy chọn-->
+			<select>
+				<optgroup label="Danh sách 1">
+					<option>Danh sách 01</option>
+					<option>Danh sách 02</option>
+					<option>Danh sách 03</option>
+					<option>Danh sách 03</option>
+				</optgroup>
+
+				<optgroup label="Danh sách 2">
+					<option>Danh sách A</option>
+					<option>Danh sách B</option>
+					<option>Danh sách C</option>
+				</optgroup>
+			</select>
+			<!--<fieldset> tạo một nhóm các thành phần bên trong form-->
+			<!--<legend> nhãn cho fieldset-->
+			<form action="#">
+				<fieldset>
+					<legend>Thông tin thành viên:</legend>
+					Họ tên: <input type="text" size="30" /><br />
+					Email: <input type="text" size="30" /><br />
+				</fieldset>
+			</form>
+			<!--<datalist> Định nghĩa một danh sách tùy chọn, sử dụng thành phần này cùng với các thành phần input.-->
+			<input list="nhom" />
+			<datalist id="nhom">
+				<option value="HTML"></option>
+				<option value="CSS"></option>
+				<option value="JQUERY"></option>
+			</datalist>
+			<!--<keygen> Xác định một cặp trường khóa chính sử dụng cho form-->
+			<form action="#">
+				Username: <input type="text" name="user">
+				<br><br>
+				Encryption: <keygen name="security">
+				<br><br>
+				<input type="submit">
+			</form>
+			<!--<output> Đại diện cho kết quả của phép tính (giống như được thực hiện bởi script).-->
+			<form action="#" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+				0
+				<input type="range" id="a" name="a" value="50">
+				100 +
+				<input type="number" id="b" name="b" value="50">
+				=
+				<output name="x" for="a b"></output>
+				<input type="submit">
+			</form>
+	</body>
+</html>
