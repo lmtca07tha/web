@@ -601,6 +601,56 @@ ctx.fillRect(0, 0, 80, 100);
 	    <td class="tg-yw4l">kèm thẻ li</td>
 	    <td class="tg-yw4l">chỉ hỗ trợ trình duyệt firefox</td>
       </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;menuitem&gt;</td>
+	    <td class="tg-yw4l">định nghĩa một lệnh/danh sách mục mà người dùng yêu cầu từ bảng cửa sổ</td>
+	    <td class="tg-yw4l"><div style="background:yellow;border:1px solid #cccccc;padding: 10px;" contextmenu="danhsachcuatoi"><menu type="context" id="danhsachcuatoi">
+  <menuitem label="Refresh" onclick="window.location.reload();" icon="ico_reload.png"></menuitem>
+</menu></td>
+	    <td class="tg-yw4l">click chuột</td>
+	    <td class="tg-yw4l">đi theo sao thẻ menu</td>
+	    <td class="tg-yw4l">chỉ hỗ trợ trong trình duyệt web firefox và là thẻ mới trong html5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;meta&gt;</td>
+	    <td class="tg-yw4l">cung cấp thông tin về trang html</td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">nằm trong cặp thẻ head, kèm các thuộc tính charset, name, content,..</td>
+	    <td class="tg-yw4l">thuộc tính scheme không hỗ trợ trong html5, thuộc tính charset được làm gọn trong html5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;meter&gt;</td>
+	    <td class="tg-yw4l">định nghĩa sự đo lường vô hướng trong một dãy đã biết</td>
+	    <td class="tg-yw4l">Dữ liệu đang ở : <meter value="3" min="0" max="10">3 trong 10</meter></td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">kèm thuộc tính value, min, max</td>
+	    <td class="tg-yw4l">5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;nav&gt;</td>
+	    <td class="tg-yw4l">định nghĩa một vị trí liên kết</td>
+	    <td class="tg-yw4l"><nav><a href="basic.html">basic</a></nav></td>
+	    <td class="tg-yw4l">click chuột</td>
+	    <td class="tg-yw4l">đi kèm thẻ a</td>
+	    <td class="tg-yw4l">5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;noframe&gt;</td>
+	    <td class="tg-yw4l">xác định nội dung thay thế khi trình duyệt không hỗ trợ</td>
+	    <td class="tg-yw4l"><frameset cols="50%,50%"><frame src="http://www.w3schools.com"><frame src="http://www.w3schools.com"><noframes>Xin lỗi trình duyệt của bạn không được hỗ trợ</noframes></frameset></td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">nằm trong thẻ frameset</td>
+	    <td class="tg-yw4l">không hỗ trợ trong html5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;noscript&gt;</td>
+	    <td class="tg-yw4l">định nghĩa nội dung thay thế khi trình duyệt không hỗ trợ hoặc bị vô hiệu hóa</td>
+	    <td class="tg-yw4l"><script>document.write("Xin chào bạn !");</script><noscript>Xin lỗi trình duyệt của bạn không được hỗ trợ</noscript></td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">đi kèm thẻ script, nằm trong thẻ head</td>
+	    <td class="tg-yw4l">trong html4 chỉ được sử dụng trong thẻ body, còn trong html5 thì cả thẻ body và head</td>
+      </tr>
 	</table>
 </body>
 </html>
