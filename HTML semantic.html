@@ -651,6 +651,383 @@ ctx.fillRect(0, 0, 80, 100);
 	    <td class="tg-yw4l">đi kèm thẻ script, nằm trong thẻ head</td>
 	    <td class="tg-yw4l">trong html4 chỉ được sử dụng trong thẻ body, còn trong html5 thì cả thẻ body và head</td>
       </tr>
+      <tr>
+	    <td class="tg-yw4l">&lt;ol&gt;</td>
+	    <td class="tg-yw4l">danh sách có thứ tự</td>
+	    <td class="tg-yw4l"><ol>
+  <li>html</li>
+  <li>css</li>
+  <li>javascript</li>
+</ol></td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">kèm thẻ li</td>
+	    <td class="tg-yw4l">thuộc tính reversed mới trong html5 và thuộc tính compact không hỗ trợ trong html5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;optgroup&gt;</td>
+	    <td class="tg-yw4l">xác định một nhóm tùy chọn có liên quan</td>
+	    <td class="tg-yw4l"><select>
+  <optgroup label="Bài 1">
+    <option value="Bài 1.1">Bài 1.1</option>
+    <option value="Bài 1.2">Bài 1.2</option>
+  </optgroup>
+  </select></td>
+	    <td class="tg-yw4l">click chuột, bấm phím</td>
+	    <td class="tg-yw4l">nằm trong thẻ select</td>
+	    <td class="tg-yw4l">4-5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;option&gt;</td>
+	    <td class="tg-yw4l">định nghĩa tùy chọn trong danh sách</td>
+	    <td class="tg-yw4l"><select><option value="1">1</option><option value="2">2</option></select></td>
+	    <td class="tg-yw4l">click chuột, bấm phím</td>
+	    <td class="tg-yw4l">nằm trong thẻ select</td>
+	    <td class="tg-yw4l">4-5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;output&gt;</td>
+	    <td class="tg-yw4l">định nghĩa kết quả phép tính</td>
+	    <td class="tg-yw4l"><form oninput="x.value=parseInt(a.value)+parseInt(b.value)">0
+<input type="range" id="a" value="0">100
++<input type="number" id="b" value="50">
+=<output name="x" for="a b"></output>
+</form></td>
+	    <td class="tg-yw4l">click chuột, bấm phím</td>
+	    <td class="tg-yw4l">nằm trong thẻ form, đi kèm thẻ input</td>
+	    <td class="tg-yw4l">thẻ mới trong html5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;p&gt;</td>
+	    <td class="tg-yw4l">định nghĩa một đoạn văn</td>
+	    <td class="tg-yw4l"><p>Đoạn văn</p></td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">4-5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;param&gt;</td>
+	    <td class="tg-yw4l">định nghia tham số cho một đối tượng</td>
+	    <td class="tg-yw4l"><object data="#">
+<param name="autoplay" value="true">
+</object></td>
+	    <td class="tg-yw4l">click chuột</td>
+	    <td class="tg-yw4l">nằm trong thẻ object</td>
+	    <td class="tg-yw4l">thuộc tính type và valuetype không hỗ trợ trong html5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;pre&gt;</td>
+	    <td class="tg-yw4l">định nghĩa văn bản định nghĩa sẵn</td>
+	    <td class="tg-yw4l"><pre>Đây là đoạn văn bản
+        
+         định nghĩa sẵn</pre></td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">thuộc tính width không hỗ trợ trong html5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;progress&gt;</td>
+	    <td class="tg-yw4l">định nghĩa quá trình làm việc</td>
+	    <td class="tg-yw4l"><progress value="30" max="100"></progress></td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">kèm thuộc tính value và max</td>
+	    <td class="tg-yw4l">thẻ mới trong html5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;q&gt;</td>
+	    <td class="tg-yw4l">định nghĩa đoạn trích dẫn ngắn</td>
+	    <td class="tg-yw4l"><q>Đoạn trích dẫn ngắn</q></td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">4-5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;rp&gt;</td>
+	    <td class="tg-yw4l">hiển thị nội dung bên trong khi trình duyệt không hỗ trợ ruby</td>
+	    <td class="tg-yw4l"><ruby>
+漢 <rt><rp>(</rp>ㄏㄢˋ<rp>)</rp></rt>
+</ruby></td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">nằm trong thẻ ruby</td>
+	    <td class="tg-yw4l">thẻ mới trong html5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;rt&gt;</td>
+	    <td class="tg-yw4l">định nghĩa các ký tự đông á</td>
+	    <td class="tg-yw4l"><ruby>
+漢 <rt> ㄏㄢˋ </rt>
+</ruby></td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">nằm trong thẻ ruby</td>
+	    <td class="tg-yw4l">thẻ mới trong html5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;ruby&gt;</td>
+	    <td class="tg-yw4l">hiển thị các ký tự đông á</td>
+	    <td class="tg-yw4l"><ruby>
+漢 <rt> ㄏㄢˋ </rt>
+</ruby></td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">kẻ thẻ rt</td>
+	    <td class="tg-yw4l">thẻ mới html5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;s&gt;</td>
+	    <td class="tg-yw4l">hiển thị văn bản bị xóa</td>
+	    <td class="tg-yw4l"><s>Văn bản bị xóa</s></td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">nằm trong thẻ p</td>
+	    <td class="tg-yw4l">trong html4 xác định văn bản bị gạch ngang, còn trong html định nghĩa văn bản không còn đúng</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;samp&gt;</td>
+	    <td class="tg-yw4l">định nghĩa một mẫu văn bản đầu ra trong chương trình máy tính</td>
+	    <td class="tg-yw4l"><samp>Đoạn chương trình được xuất ra từ chương trình máy tính</samp></td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">4-5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;script&gt;</td>
+	    <td class="tg-yw4l">định nghĩa một đoạn script từ máy khác, ví dụ như javascript</td>
+	    <td class="tg-yw4l"><p id="doanvan"></p><script>
+document.getElementById("doanvan").innerHTML = "Chào bạn !";
+</script></td>
+	    <td class="tg-yw4l">click chuột, bấm phím</td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">thuộc tính type là bắt buộc trong html4 còn trong 5 là tùy chọn, async là thuộc tính mới trong html5, thuộc tính xml:space không hỗ trợ trong html5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;section&gt;</td>
+	    <td class="tg-yw4l">xác định các phần trong một tài liệu, như tiêu cac chương, tiêu đề footer, hoặc các thành phần khác</td>
+	    <td class="tg-yw4l"><section><h1>Chương 1</h1><p>Nội dung chương 1</p></section></td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">thẻ mới trong html5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;select&gt;</td>
+	    <td class="tg-yw4l">định nghĩa một danh sách thả xuống</td>
+	    <td class="tg-yw4l"><select><option>HMTL</option><option>CSS</option></select></td>
+	    <td class="tg-yw4l">click chuột, bấm phím</td>
+	    <td class="tg-yw4l">kèm thẻ option</td>
+	    <td class="tg-yw4l">4-5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;small&gt;</td>
+	    <td class="tg-yw4l">xác định đoạn văn bản nhỏ</td>
+	    <td class="tg-yw4l"><p><small>Đoạn văn trích dẫn nhỏ</small><p></td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">nằm trong thẻ p</td>
+	    <td class="tg-yw4l">4-5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;source&gt;</td>
+	    <td class="tg-yw4l">chỉ định nhiều nguồn tài liệu truyền thông như video, audio</td>
+	    <td class="tg-yw4l"><audio controls>
+  <source src="Betrayal.mp3" type="audio/mpeg">
+  Trình duyệt của bạn không hỗ trợ
+</audio></td>
+	    <td class="tg-yw4l">click chuột, bấm phím</td>
+	    <td class="tg-yw4l">nằm trong các thẻ audio, video,..</td>
+	    <td class="tg-yw4l">thẻ mới trong html5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;span&gt;</td>
+	    <td class="tg-yw4l">nhóm các đối tượng bên trong tài liệu</td>
+	    <td class="tg-yw4l"><p>Chương trình <span style="color:blue">hướng dẫn</span> nghiên cứu sinh</p></td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">kèm các thuộc tính style</td>
+	    <td class="tg-yw4l">4-5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;strike&gt;</td>
+	    <td class="tg-yw4l">định nghĩa văn bản gạch ngang</td>
+	    <td class="tg-yw4l"><p>Văn bản <strike>bị gạch ngang</strike></p></td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">4</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;strong&gt;</td>
+	    <td class="tg-yw4l">định nghĩa văn bản quan trọng được nhấn mạnh</td>
+	    <td class="tg-yw4l"><p>Văn bản này <strong>quan trọng</strong></p></td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">trong html4 định nghĩa văn bản nhấn mạnh, trong html5 định nghĩa văn bản quan trọng</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;style&gt;</td>
+	    <td class="tg-yw4l">định nghĩa thông tin kiểu cách của văn bản</td>
+	    <td class="tg-yw4l"><style>h5 {color:yellow;}
+        </style><h5>Đoạn văn định nghĩa lại thẻ h5</h5></td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">có thể có nhiều thẻ style</td>
+	    <td class="tg-yw4l">thuộc tính scoped mới trong html5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;sub&gt;</td>
+	    <td class="tg-yw4l">định nghĩa văn bản hiển thị nữa dưới văn bản bình thường, xuất hiện trong các công thức toán học</td>
+	    <td class="tg-yw4l">H<sub>2</sub>O</td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">4-5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;summary&gt;</td>
+	    <td class="tg-yw4l">định nghĩa tiêu đề rõ ràng phần tử, có thể bấm để xem chi tiết</td>
+	    <td class="tg-yw4l"><details><summary>HTML</summary><p> - Hypertext Markup Language</p></details></td>
+	    <td class="tg-yw4l">click chuột</td>
+	    <td class="tg-yw4l">nằm trong thẻ details, kèm thẻ p</td>
+	    <td class="tg-yw4l">thẻ mới trong html5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;sup&gt;</td>
+	    <td class="tg-yw4l">thẻ định nghĩa văn bản superscript, xuất hiện nữa phần trên văn bản thường, sử dụng ghi chú như từ tiếng anh</td>
+	    <td class="tg-yw4l">Hồ Chí Minh<sup>[1]</sup></td>
+	    <td class="tg-yw4l">click, rà chuột ngang</td>
+	    <td class="tg-yw4l">nằm trong thẻ p</td>
+	    <td class="tg-yw4l">4-5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;table&gt;</td>
+	    <td class="tg-yw4l">định nghĩa một bảng trong tài liệu</td>
+	    <td class="tg-yw4l"><table><tr><th>Tài liệu 1</th></tr><tr><td>Nội dung tài liệu 1</td></tr></table></td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">kèm thẻ tr, th, td</td>
+	    <td class="tg-yw4l">các thuộc tính align, bgcolor, cellpadding, cellspacing, frame,rules, summary và width không hỗ trong html5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;tbody&gt;</td>
+	    <td class="tg-yw4l">xác định một nhóm nội dung của table</td>
+	    <td class="tg-yw4l"><table><tbody><tr><td>Nội dung phần thân</td></tr></tbody></table></td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">nằm trong thẻ table, kèm thẻ tr, td</td>
+	    <td class="tg-yw4l">các thuộc tính trong html4 không hỗ trợ trong html5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;td&gt;</td>
+	    <td class="tg-yw4l">định nghĩa nội dung một ô trong bảng</td>
+	    <td class="tg-yw4l"><table><tr><td>Nội dung một ô trong văn bản</td></tr></table></td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">Nằm trong thẻ table, tr</td>
+	    <td class="tg-yw4l">các thuộc tính trong html4 không hỗ trợ trong 5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;textarea&gt;</td>
+	    <td class="tg-yw4l">định nghĩa một đoạn văn bản nhiều dòng</td>
+	    <td class="tg-yw4l"><textarea rows="5" cols="50">Đoạn văn bản này gõ được nhiều dòng</textarea></td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">kèm thuộc tính rows và cols</td>
+	    <td class="tg-yw4l">trong html5 thêm vài thuộc tính</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;tfoot&gt;</td>
+	    <td class="tg-yw4l">xác định một nhóm cuối của table</td>
+	    <td class="tg-yw4l"><table><tfoot><tr><td>Nội dung phần cuối bảng</td></tr></tfoot></table></td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">nằm trong thẻ table</td>
+	    <td class="tg-yw4l">các thuộc tính trong html4 không hỗ trợ trong 5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;th&gt;</td>
+	    <td class="tg-yw4l">định nghĩa tiêu đề cột của bảng</td>
+	    <td class="tg-yw4l"><table><tr><th>Tiêu đề 1</th></tr></table></td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">nằm trong thẻ table và tr</td>
+	    <td class="tg-yw4l">các thuộc tính trong html4 không hỗ trợ trong 5</td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;thead&gt;</td>
+	    <td class="tg-yw4l">xác định một nhóm đầu của bảng</td>
+	    <td class="tg-yw4l"><table><thead><tr><td>Nội dung phần đầu bảng</td></tr></thead></table></td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">nằm trong thẻ table, kèm thẻ tr, td</td>
+	    <td class="tg-yw4l"><blockquote>
+	      <p>các thuộc tính trong html4 không hỗ trợ trong 5</p></td>
+      </tr>
+	  <tr>
+	    <td class="tg-yw4l">&lt;time&gt;</td>
+	    <td class="tg-yw4l">định nghĩa thời gian</td>
+	    <td class="tg-yw4l">Bây giờ là <time>10:00</time> giờ</td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">nằm trong thẻ p</td>
+	    <td class="tg-yw4l">thẻ mới trong html5</td>
+      </tr>
+      <tr>
+	    <td class="tg-yw4l">&lt;title&gt;</td>
+	    <td class="tg-yw4l">định nghĩa tiêu đề một html</td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">0</td>
+	    <td class="tg-yw4l">nằm đầu trang html</td>
+	    <td class="tg-yw4l">4-5</td>
+      </tr>
+      <tr>
+        <td class="tg-yw4l">&lt;tr&gt;</td>
+        <td class="tg-yw4l">định nghĩa một dòng trong bảng</td>
+        <td class="tg-yw4l"><table><tr><th>dòng tiêu đề</th></tr></table></td>
+        <td class="tg-yw4l">0</td>
+        <td class="tg-yw4l">nằm trong thẻ table, kèm thẻ th,td</td>
+        <td class="tg-yw4l">các thuộc tính trong html4 không hỗ trợ trong 5</td>
+      </tr>
+      <tr>
+        <td class="tg-yw4l">&lt;track&gt;</td>
+        <td class="tg-yw4l">xác định văn bản cho các phương tiện truyền thông như âm thanh, video</td>
+        <td class="tg-yw4l"><video width="320" height="240" controls>
+  <source src="sinh nhat.avi" type="video/mp4">
+  <track src="sinh nhat.avi" kind="subtitles" srclang="en" label="English">
+</video></td>
+        <td class="tg-yw4l">click chuột</td>
+        <td class="tg-yw4l">nằm trong thẻ video hay audio</td>
+        <td class="tg-yw4l">thẻ mới trong html5</td>
+      </tr>
+      <tr>
+        <td class="tg-yw4l">&lt;tt&gt;</td>
+        <td class="tg-yw4l">định nghĩa kiều chữ đánh máy</td>
+        <td class="tg-yw4l"><p>Đoạn văn được <tt>đánh máy</tt></p></td>
+        <td class="tg-yw4l">0</td>
+        <td class="tg-yw4l">nằm trong thẻ p</td>
+        <td class="tg-yw4l">không hỗ trợ trong html5</td>
+      </tr>
+      <tr>
+        <td class="tg-yw4l">&lt;u&gt;</td>
+        <td class="tg-yw4l">định nghĩa một đoạn văn bản được thay thế văn bản sai trước đó hoặc danh từ riêng</td>
+        <td class="tg-yw4l">Đoạn văn này <del>sai</del><u>chỉnh</u> lại</td>
+        <td class="tg-yw4l">0</td>
+        <td class="tg-yw4l">đi kèm thẻ del</td>
+        <td class="tg-yw4l">trong html4 dùng định nghĩa văn bản gạch dưới, trong 5 định nghĩa văn bản thay thế </td>
+      </tr>
+      <tr>
+        <td class="tg-yw4l">&lt;ul&gt;</td>
+        <td class="tg-yw4l">định nghĩa danh sách không có thứ tự</td>
+        <td class="tg-yw4l"><ul><li>lập trình</li><li>thiết kế</li></ul></td>
+        <td class="tg-yw4l">0</td>
+        <td class="tg-yw4l">đi kèm thẻ li</td>
+        <td class="tg-yw4l">thuộc tính compact và type không hỗ trợ trong html5</td>
+      </tr>
+      <tr>
+        <td class="tg-yw4l">&lt;var&gt;</td>
+        <td class="tg-yw4l">định nghĩa một khai báo biến</td>
+        <td class="tg-yw4l"><var>biến x</var></td>
+        <td class="tg-yw4l">0</td>
+        <td class="tg-yw4l">0</td>
+        <td class="tg-yw4l">4-5</td>
+      </tr>
+      <tr>
+        <td class="tg-yw4l">&lt;video&gt;</td>
+        <td class="tg-yw4l">định nghĩa đoạn clip</td>
+        <td class="tg-yw4l"><video width="300" height="200" controls><source src="sinh nhat.avi" type="video/mp4"><source src="sinh nhat.avi" type="video/ogg"></video></td>
+        <td class="tg-yw4l">click chuột, bấm phím</td>
+        <td class="tg-yw4l">kèm thẻ source</td>
+        <td class="tg-yw4l">thẻ mới trong html5</td>
+      </tr>
+      <tr>
+        <td class="tg-yw4l">&lt;wbr&gt;</td>
+        <td class="tg-yw4l">Xác định text quá dài sẽ tự động xuống hàng (không tràn layout)</td>
+        <td class="tg-yw4l"><wbr>Đoạn văn bản quá dài không tràn giao diện</wbr></td>
+        <td class="tg-yw4l">0</td>
+        <td class="tg-yw4l">0</td>
+        <td class="tg-yw4l">thẻ mới trong html5</td>
+      </tr>
 	</table>
 </body>
 </html>
